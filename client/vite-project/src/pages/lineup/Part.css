@@ -1,0 +1,27 @@
+.partyvvv{
+    width: 106%;
+    height: 60vh;
+    z-index: -1;
+    position: relative;
+}
+.tit{
+    text-align: center;
+    border: 3px solid black;
+    text-decoration:underline ;
+    box-sizing: content-box;
+    width: 25%;
+    margin-left: 45%;
+    z-index: 1;
+    position: absolute;
+    font-size: 3rem;
+    color:black;
+}
+
+ .imxx{
+    width: 30vw;
+    height: 50vh;
+ }
+.boxsxs{
+   margin-top: 12%;
+   margin-left: 7%;
+}

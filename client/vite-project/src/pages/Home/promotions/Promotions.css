@@ -1,0 +1,21 @@
+@keyframes slideDown1 {
+    from{
+        transform:translateX(30rem);
+        opacity:0;
+    }
+    to{
+        transform: translateX(0rem);
+        opacity:1;
+  
+    }
+  }
+  .promotions{
+    background-color: #533a71;
+    height: 12vh;
+  
+  }
+  .anim{
+    animation: slideDown1 8s;
+    color: aliceblue;
+    font-size: 2.5rem;
+  }

@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(133, 59, 117, 0.6);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+   
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+   
+}
+hr{
+    height: 3.5vh;
+    background-color: black;
+}
+#picxx{
+    height: 6vh;
+    width: 6vh;
+    float: right;
+    margin-right: 56%;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
