@@ -12,15 +12,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  /* overflow-x: hidden; */
+  
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
+  font-weight: 600;
+  
+   /* color: #646cff;  */
+   color: #ffff;
   text-decoration: inherit;
+  font-size: 2vw;
+
 }
 a:hover {
-  color: #535bf2;
+  color: #f253dd; 
+  
 }
 
 body {
@@ -29,6 +36,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  max-width: device-width;
+  /* overflow-x: hidden; */
+  
 }
 
 h1 {
@@ -65,5 +75,14 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+@media screen and (max-width: 786px) {
+  .nav {
+    font-size:3vh;
+    font-weight: 700;
+    
+  
+    
   }
 }

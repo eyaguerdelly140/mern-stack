@@ -6,6 +6,8 @@
     
     color: aliceblue;
     padding-bottom: 8px;
+  
+    
   }
   
   .counter-item {
@@ -52,8 +54,10 @@
 }
 .coutxx{
     margin-top: 9%;
-    background-color: black;
-opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.616);
+    opacity: 0.8;
+    margin-left: -40vw;
+    
 }
 .htht{
     height: 0.3rem;

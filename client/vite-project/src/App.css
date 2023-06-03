@@ -1,4 +1,6 @@
 .body{
     background-color: black;
     opacity: 0.8;
+    overflow-x: hidden;
+    max-width: device-width;
 }

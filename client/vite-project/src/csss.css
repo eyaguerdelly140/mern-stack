@@ -1,4 +1,8 @@
 body{
     background-color:black;
     opacity: 0.9;
+    /* overflow-x: hidden;  */
+    margin-left: 0;
+    max-width: device-width;
+    
 }
